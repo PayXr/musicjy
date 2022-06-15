@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm Music & Management bot Your's Friend [✨](https://telegra.ph/file/66104cb8431b5d4562496.jpg)
+✪ I'm Music & Management bot Groups Fams Your's Friend [✨](https://telegra.ph/file/66104cb8431b5d4562496.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, Your Friends Music Alive.",
+                "👋 Hi, I'am Alive.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
